@@ -1,0 +1,55 @@
+ body{
+    background-color: black;
+    color: white;
+    width: auto;
+    margin:20px;
+    overflow: hidden;
+    
+}
+
+nav {
+    color:rgb(252 92 28);
+    display: flex;
+    height: 30px;
+    margin-left: 30px;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  nav ul li{
+    color: rgb(252 92 28);
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+  }
+
+/*#logo{
+height: 90px;
+width: 90px;
+  }
+*/
+#bg{
+    text-align: center;
+    display: inline;
+    height: auto;
+    
+  }
+#header-intro{
+  color:rgb(252 92 28); 
+}
+
+#me{
+  position: pxabsolute; 
+}
+
+nav ul li a{
+  color: rgb(252 92 28);
+  text-decoration: none;}
+
+#name{
+  color: rgb(252 92 28);
+}
