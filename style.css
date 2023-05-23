@@ -3,6 +3,7 @@
     color: white;
     width: auto;
     margin:20px;
+    font-size: 18px ;
     overflow: hidden;
     
 }
@@ -12,10 +13,16 @@ nav {
     display: flex;
     height: 30px;
     margin-left: 30px;
+    margin-right: 50px;
     padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    border-bottom: rgb(100 100 100) solid white;
+  
   }
 
   nav ul li{
@@ -27,6 +34,9 @@ nav {
     padding: 5px;
   }
 
+nav ul li a{
+
+}
 /*#logo{
 height: 90px;
 width: 90px;
