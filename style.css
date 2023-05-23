@@ -12,6 +12,7 @@
 
 #header{
   background-image: url("./background.jpg");
+  background-color: rgba(100, 100, 100, 1);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -26,7 +27,7 @@ nav {
     color:rgb(241 137 7);
     display: flex;
     height: 30px;
-    margin: 10px;
+    margin: 20px;
     padding: auto;
     font-size: 20px;
     font-weight: 600;
@@ -43,6 +44,7 @@ nav {
     display: inline;
     list-style-type: none;
     text-decoration: none;
+    font-size: 15px;
     margin: 5px;
     padding: 5px;
     text-transform: uppercase;
@@ -64,22 +66,34 @@ width: 90px;
   }
 */
 #bg{
-  margin: 50px;
+    margin: 50px;
     color:white;
     font-style: inherit;
     text-align: center;
-    display: inline;
+    display: block;
     height: auto;
     }
  
 #top-me{
-  margin: 10px;
+  margin: 20px;
+  padding: 40px;
   font-size: 35px;
+  height: 25vh;
 }
 
 .span-orange{
   color:rgb(252 92 28);
-  font-size: 80px;
+  font-size: 30px;
   font-weight: 600;
+  position: absolute;
 }
 
+#header-intro{
+  margin: 20px;
+  padding: 5px;
+  position: static;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+
+}
