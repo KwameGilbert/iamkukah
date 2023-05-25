@@ -3,7 +3,7 @@
     color: white;
     font-family: Poppins;
     width: 100%;
-    margin:0px 15px 0 15px;
+    margin:auto;
     padding: 0px;
     font-size: 18px;
     overflow-x: hidden;
@@ -12,15 +12,13 @@
 
 #header{
   background-image: url("../images/background.jpg");
-  background-color: rgba(100, 100, 100, 1);
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  height: auto;
-  word-wrap: normal;
+  width:auto;
+  margin: auto;
+  height: max-content;
   text-align: center;
 
 
@@ -30,7 +28,7 @@ nav {
     color:rgb(241 137 7);
     display: flex;
     height: 30px;
-    margin: 20px;
+    margin: auto;
     padding: auto;
     font-size: 20px;
     font-weight: 600;
@@ -48,7 +46,7 @@ nav {
     list-style-type: none;
     text-decoration: none;
     font-size: 15px;
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
     text-transform: uppercase;
   }
@@ -70,19 +68,17 @@ width: 90px;
   }
 */
 #bg{
-    margin: 50px;
     color:white;
     font-style: inherit;
     text-align: center;
-    display: block;
-    height: auto;
+    display: inline;
     }
  
 #top-me{
-  margin: 20px;
-  padding: 40px;
+  margin: auto;
+  padding: auto;
   font-size: 35px;
-  height: 25vh;
+  height: max-content;
 }
 
 .span-orange{
@@ -112,9 +108,9 @@ width: 90px;
 
 #about{
   width: 90vw;
-  margin: 5px 10px 5px 10px;
+  margin: 10px 10px 10px 10px;
   padding: 10px;
-  display: flex;
+  display: block;
 }
 
 .topic-header{
@@ -122,10 +118,12 @@ width: 90px;
    font-weight:600; 
    width: 100%;
    margin: 15px;
+   display: block;
 }
 
 #about_text{
-  display: inline;
+  position: relative;
+  display: flex;
   margin: 10px;
   width: 50%;
 }
