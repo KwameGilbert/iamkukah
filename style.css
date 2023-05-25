@@ -3,9 +3,9 @@
     color: white;
     font-family: Poppins;
     width: 100vw;
-    margin:auto;
-    padding: auto;
-    font-size: 18px ;
+    margin:0px 15px 0px 15px;
+    padding: 10px;
+    font-size: 18px;
     overflow-x: hidden;
     
 }
@@ -91,9 +91,31 @@ width: 90px;
 #header-intro{
   margin: 20px;
   padding: 5px;
-  position: static;
+  position: relative;
   text-align: center;
-  display: block;
+  display: inline-block;
   font-size: 20px;
+  width: 70vw;
+  height: 150px;
 
+}
+
+#about{
+  width: 90vw;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.topic-header{
+   text-align: center;
+   font-weight:600; 
+   width: 100%;
+   margin: 15px;
+}
+
+#about_text{
+  display: inline;
+  margin: 10px;
+  width: 50%;
 }
