@@ -3,7 +3,7 @@
     color: white;
     font-family: Poppins;
     width: 100%;
-    margin:20px;
+    margin:0px 15px 0 15px;
     padding: 0px;
     font-size: 18px;
     overflow-x: hidden;
@@ -11,16 +11,17 @@
 }
 
 #header{
-  background-image: url("./background.jpg");
+  background-image: url("../images/background.jpg");
   background-color: rgba(100, 100, 100, 1);
   background-repeat: no-repeat;
   background-position: center;
-  background-size:cover;
-  width: inherit;
-  margin: inherit;
-  padding: auto;
+  background-size: cover;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
   height: auto;
   word-wrap: normal;
+  text-align: center;
 
 
 }
@@ -56,6 +57,7 @@ nav ul li:hover{
   color: rgb(143, 45, 6);
   /*background-color: rgb(122, 42, 11);*/
   text-decoration: underline;
+  font-weight: 800;
 }
 
 nav ul li a{
