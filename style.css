@@ -2,9 +2,9 @@
     background-color: black;
     color: white;
     font-family: Poppins;
-    width: 100vw;
-    margin:0px 15px 0px 15px;
-    padding: 10px;
+    width: 100%;
+    margin:20px;
+    padding: 0px;
     font-size: 18px;
     overflow-x: hidden;
     
@@ -16,10 +16,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-  width: 100vw;
-  margin: 0px;
-  padding: 0px;
-  height: 100vh;
+  width: inherit;
+  margin: inherit;
+  padding: auto;
+  height: auto;
+  word-wrap: normal;
+
 
 }
 
@@ -98,6 +100,12 @@ width: 90px;
   width: 70vw;
   height: 150px;
 
+}
+
+.social-icons{
+  width: 50px;
+  height: 50px;
+  margin: 5px;
 }
 
 #about{
