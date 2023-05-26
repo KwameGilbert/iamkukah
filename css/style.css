@@ -1,12 +1,13 @@
  body{
-    background-color: black;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    font-size: 18px;
-    overflow-x: hidden;}
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+  font-size: 18px;
+  overflow-x: hidden;
+}
 
 #header{
   background-image: url("../images/background.jpg");
@@ -94,27 +95,41 @@ section#bg h3{
   height: 50px;
   margin: 5px;}
 
-#about{
-  margin: 10px;
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;}
-
-
-.topic-header{
+  .topic-header{
    text-align: center;
    font-weight:600; 
    width: 100%;
    margin: 15px;
    display: block;}
 
-#about_text{
-  display: inline;
-  text-align: justify;
-  width: auto ;
-  background-color: rgba(241 137 7 0.5);
-  border-radius: 50px;
+#about{
+  margin: 10px;
   padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;}
+
+#about_text{
+  text-align: justify;
+  width: 600px;
+  /* background-color: rgb(143, 45, 6); */
+  /* border-radius: 50px; */
+  /* padding: 10px; */
+  margin: auto;
   }
   
+.button{
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  color: black;
+  background-color: rgb(143, 45, 6);
+  border-radius: 10px;
+}
+
+#me{
+  width: 500px;
+  height: 429px;
+  margin: auto;
+}
 
