@@ -1,14 +1,12 @@
  body{
     background-color: black;
     color: white;
-    font-family: Poppins;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
-    margin:auto;
+    margin: 0px;
     padding: 0px;
     font-size: 18px;
-    overflow-x: hidden;
-    
-}
+    overflow-x: hidden;}
 
 #header{
   background-image: url("../images/background.jpg");
@@ -19,36 +17,31 @@
   width:auto;
   margin: auto;
   height: max-content;
-  text-align: center;
-
-
-}
+  text-align: center;}
 
 nav {
     color:rgb(241 137 7);
     display: flex;
     height: 30px;
     margin: auto;
-    padding: auto;
+    padding: 5px;
     font-size: 20px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: space-around;
     position: relative;
-    /*border-bottom: rgb(145, 144, 144) solid 2px;*/
-  
-  }
-
+    /*border-bottom: rgb(145, 144, 144) solid 2px;*/}
 
   nav ul li{
     display: inline;
     list-style-type: none;
     text-decoration: none;
     font-size: 15px;
-    margin: 0px;
+    margin: 10px;
     padding: 5px;
     text-transform: uppercase;
+    position: static;
   }
 
 nav ul li:hover{
@@ -56,74 +49,72 @@ nav ul li:hover{
   /*background-color: rgb(122, 42, 11);*/
   text-decoration: underline;
   font-weight: 800;
+  margin: 8px;
+  padding: 2px;
 }
 
 nav ul li a{
   color:inherit;
   text-decoration: none;}
 
-/*#logo{
-height: 90px;
-width: 90px;
-  }
-*/
 #bg{
     color:white;
     font-style: inherit;
     text-align: center;
-    display: inline;
-    }
+    display: inline;}
  
+section#bg h3{
+  margin: 0px;
+  padding: 0px;} 
+   
 #top-me{
-  margin: auto;
+  margin: 5px;
   padding: auto;
   font-size: 35px;
-  height: px;
-}
+  height: 150px;}
 
 .span-orange{
   color:rgb(252 92 28);
   font-size: 30px;
   font-weight: 600;
-  position: absolute;
-}
+  position: relative;}
 
 #header-intro{
-  margin: 20px;
+  margin: 10x;
   padding: 5px;
   position: relative;
   text-align: center;
   display: inline-block;
   font-size: 20px;
   width: 70vw;
-  height: 150px;
-
-}
+  height: 130px;}
 
 .social-icons{
   width: 50px;
   height: 50px;
-  margin: 5px;
-}
+  margin: 5px;}
 
 #about{
-  width: 90vw;
-  margin: 10px 10px 10px 10px;
+  margin: 10px;
   padding: 10px;
-  display: block;
-}
+  display: flex;
+  justify-content: space-evenly;}
+
 
 .topic-header{
    text-align: center;
    font-weight:600; 
    width: 100%;
    margin: 15px;
-   display: block;
-}
+   display: block;}
 
 #about_text{
-  position: relative;
-  display: flex;
-  margin: 10px;
-  width: 50%;
-}
+  display: inline;
+  text-align: justify;
+  width: auto;
+  background-color: rgba(241 137 7 0.5);
+  border-radius: 50px;
+  padding: 10px;
+  }
+  
+
