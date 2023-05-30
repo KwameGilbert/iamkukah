@@ -81,7 +81,7 @@ div h1#name {
   margin: 5px;}
 
   .topic-header{
-   text-align: center;
+   text-align: left;
    font-weight: 600; 
    width: 100%;
    margin: 15px;
