@@ -97,7 +97,7 @@ div h1#name {
 #about_text{
   text-align: justify;
   width: 600px;
-  margin: auto;
+  margin: 10px;
   }
   
 .button{
