@@ -1,4 +1,5 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+margin: 0;}
 
 body{
   background-color: black;
@@ -30,8 +31,8 @@ nav ul li{
   list-style-type: none;
   text-decoration: none;
   font-size: 15px;
-  margin: 10px;
-  padding: 5px;
+  margin: auto;
+  padding: 10px;
   text-transform: uppercase;
   position: static;
 }
@@ -40,9 +41,9 @@ nav ul li:hover{
 color: rgb(143, 45, 6);
 /*background-color: rgb(122, 42, 11);*/
 text-decoration: underline;
-font-weight: 800;
-margin: 8px;
-padding: 2px;
+font-size: 18px;
+margin: 10px;
+padding: 5px;
 }
 
 nav ul li a{
