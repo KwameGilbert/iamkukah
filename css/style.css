@@ -139,7 +139,7 @@ section#services{
 
 .serv:hover {
   transform: scale(1.2);
-  box-shadow: 0px 0px 12px rgba(241, 137, 7, 0.7);
+  box-shadow: 0px 0px 12px rgba(241, 137, 7, 0.8);
 }
 
 .serv-icon {
