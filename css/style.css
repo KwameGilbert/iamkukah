@@ -80,23 +80,26 @@ div h1#name {
   height: 50px;
   margin: 5px;}
 
+.section{text-align: left;}
   .topic-header{
    text-align: left;
    font-weight: 600; 
-   /*width: 100%;*/
-   margin: 20px 0px 20px 100px ;
-   display: block;}
+   width: auto;
+   margin: auto;
+   display: block;
+  }
 
 #about{
   margin: 10px;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;}
+  justify-content: center;
+}
 
 #about_text{
   text-align: justify;
-  width: 600px;
+  width: 820px;
   margin: 10px;
   }
   
