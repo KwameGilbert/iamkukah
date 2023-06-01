@@ -155,7 +155,7 @@ section#services{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   color: black;
-  transition: transform 0.3s;
+  transition: transform 1s;
 }
 
 .serv:hover {
