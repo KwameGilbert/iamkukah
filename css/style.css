@@ -15,33 +15,39 @@ body{
   padding: 5px;
   font-size: 18px;
   overflow-x: hidden;
+ /* scroll-behavior: smooth;*/
 }
 
 nav{
   color:rgb(241 137 7);
   display: flex;
-  height: 40px;
+  height: 60px;
+  width: 100%;
+  top: 0;
   margin: auto;
   padding: 5px;
-  font-size: 15px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
-  justify-content: space-around;
-  position: relative;
+  justify-content: space-evenly;
+  position: fixed;
+  background-color: black;
+  border-bottom: 2px solid white;
  }
 
 nav ul li{
   display: inline;
-  margin: auto;
+  margin: 10px;
   padding: 10px;
-  
+  font-weight: 600;
   text-transform: capitalize;
-  transition: transform 0.3s;
+  transition-duration: 0.3s;
 }
+ nav ul li:hover{transform: scale(1.2);}
 
-nav ul li:hover{
-transform: scale(1.5);
-}
+ nav ul{
+  margin: 0px -180px 0px 100px;
+ }
 
 section#header{
   background-image: url("../images/background.jpg");
@@ -50,13 +56,18 @@ section#header{
   background-position: center;
   background-size: cover;
   width: auto;
-  margin: auto;
+  margin: 100px 0px;
   text-align: center;
   color:white;
   font-style: normal;
   flex-direction: column;
   align-content: center;
-  height: auto;}
+  height: 100vh;
+ 
+}
+
+section#header h3{
+  margin: 30px;}
 
 div h1#name {
   font-size: 50px;
@@ -73,7 +84,9 @@ div h1#name {
  display: inline;
   font-size: 20px;
   width: 70vw;
-  height: 150px;}
+  height: 150px;
+  line-height: 1.75rem;
+  letter-spacing: .05em;}
 
 .social-icons{
   width: 50px;
@@ -81,11 +94,12 @@ div h1#name {
   margin: 5px;}
 
 .section{text-align: left;}
+
   .topic-header{
-   text-align: left;
+   text-align: justify;
    font-weight: 600; 
-   width: auto;
-   margin: auto;
+   width: 820px;
+   margin: 20px 0px 20px 78px;
    display: block;
   }
 
@@ -95,12 +109,16 @@ div h1#name {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-weight:450;
+  line-height: 1.75rem;
+  letter-spacing: .05em;
 }
 
 #about_text{
   text-align: justify;
   width: 820px;
   margin: 10px;
+
   }
   
 .button{
@@ -141,7 +159,7 @@ section#services{
 }
 
 .serv:hover {
-  transform: scale(1.2);
+  transform: rotateY(360deg);
   box-shadow: 0px 0px 12px rgba(241, 137, 7, 0.8);
 }
 
