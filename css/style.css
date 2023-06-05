@@ -20,18 +20,20 @@ body{
 nav{
   color:rgb(241 137 7);
   display: flex;
-  height: 40px;
-  margin: auto;
+  height: 60px;
+  margin: 0px 0 px 0 px 10px;
   padding: 5px;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
   justify-content: space-around;
-  position: relative;
+  position: fixed;
+  top: 0;
  }
 
 nav ul li{
-  display: inline;
+  display: block;
+  float: left;
   margin: auto;
   padding: 10px;
   
@@ -56,7 +58,7 @@ section#header{
   font-style: normal;
   flex-direction: column;
   align-content: center;
-  height: auto;}
+  height: 100%;}
 
 div h1#name {
   font-size: 50px;
@@ -78,30 +80,27 @@ div h1#name {
 .social-icons{
   width: 50px;
   height: 50px;
-  margin: 5px;}
+  margin:  50px 5px;}
 
-.section{text-align: left;}
-  .topic-header{
+/*.topic-header{
    text-align: left;
    font-weight: 600; 
-   width: auto;
-   margin: auto;
-   display: block;
-  }
+   width: 100%;
+   margin: 20px;
+   display: block;}*/
 
 #about{
-  margin: 10px;
+  margin: 10px 30px 20px 30px;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
+  justify-content: space-around;
 
 #about_text{
   text-align: justify;
-  width: 820px;
+  width: auto;
   margin: 10px;
-  }
+}
   
 .button{
   height: 50px;
